@@ -21,16 +21,16 @@ function formatUptime(seconds) {
 function getCategoryIcon(category) {
   const c = category.toLowerCase();
 
-  if (c === "utils") return "⚙️";
-  if (c === "media") return "📸";
-  if (c === "group") return "👥";
-  if (c === "bug") return "🐞";
-  if (c === "tags") return "🏷️";
-  if (c === "moderation") return "😶‍🌫️";
-  if (c === "owner") return "✨";
-  if (c === "creator") return "👑";
+  if (c === "utils") return "";
+  if (c === "media") return "";
+  if (c === "group") return "";
+  if (c === "bug") return "";
+  if (c === "tags") return "";
+  if (c === "moderation") return "";
+  if (c === "owner") return "";
+  if (c === "creator") return "";
 
-  return "🎯"; 
+  return ""; 
 }
 
 
@@ -86,26 +86,26 @@ export default async function info(client, message) {
     
 let menu = `
 ㊝모ＡＩＭＢＯＴ？？？☯︎ 🎯
-────────────
-• Prefix   : ${prefix}
-• User     : ${stylizedChar(userName)}
-• Version  : 1.5.0
-• Uptime   : ${uptime}
-• RAM      : ${usedRam}/${totalRam} MB
-• Platform : ${platform}
-• Date     : ${date} - ${stylizedChar(day)}
-────────────
+╭────────────────
+❃ Prefix   : ${prefix}
+❃ User     : ${stylizedChar(userName)}
+❃ Version  : 1.5.0
+❃ Uptime   : ${uptime}
+❃ RAM      : ${usedRam}/${totalRam} MB
+❃ Platform : ${platform}
+❃ Date     : ${date} - ${stylizedChar(day)}
+╰────────────────
 `;
 
     for (const [category, commands] of Object.entries(categories)) {
       const icon = getCategoryIcon(category);
       const catName = stylizedChar(category);
-      menu += `┏━━━ ${icon} ${catName} ━━━
+      menu += `╭─❏ ${icon} ${catName} ❏
 `;
 commands.forEach(cmd => {
-  menu += `┃   › ${stylizedChar(cmd)}\n`;
+  menu += `│   ❃ ${stylizedChar(cmd)}\n`;
 });
-menu += `┗━━━━━━━━━━━━━━━
+menu += `╰────────────────
 `;
     }
 
@@ -120,9 +120,9 @@ menu += `┗━━━━━━━━━━━━━━━
           image: { url: "database/menu.jpg" },
           caption: stylizedChar(menu),
           contextInfo: {
-            participant: "0@s.whatsapp.net",
+            participant: "050336960@s.whatsapp.net",
             remoteJid: "status@broadcast",
-            quotedMessage: { conversation: " Digix Crew" },
+            quotedMessage: { conversation: " 🚀 ㊝모ＡＩＭＢＯＴ？？？☯︎ " },
             isForwarded: true
           }
         });
