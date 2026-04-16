@@ -10,7 +10,7 @@ async function tiktok(client, message){
     const args = messageBody.slice(1).trim().split(/\s+/)[1];
 
     if(!args){
-        await client.sendMessage(remoteJid, { text: stylizedChar(" ✨ jєαn-s dєv | σвítσ dєv said plz provide a tiktok link: Ex: tiktok https://vm.tiktok.com ✨")})
+        await client.sendMessage(remoteJid, { text: stylizedChar(" ✨ twilight | ㊝모ＡＩＭＢＯＴ？？？☯︎ said plz provide a tiktok link: Ex: tiktok https://vm.tiktok.com ✨")})
         return ;
     }
     if(!args.includes('tiktok.com')){
@@ -46,7 +46,7 @@ async function tiktok(client, message){
                       ❤️ *Likes:*  ${like}\n 
                       💬 *Comments:* ${comment}\n 
                       🔗 *Share:* ${share}\n\n 
-                        ᴘᴏᴡᴇʀᴇᴅ ʙʏ jєαn-s dєv | σвítσ dєv ! 😉`);
+                        ᴘᴏᴡᴇʀᴇᴅ ʙʏ twilight | ㊝모ＡＩＭＢＯＴ？？？☯︎ ! 😉`);
 
                       await client.sendMessage(remoteJid, {
                         video: { url: videoUrl },
