@@ -14,7 +14,7 @@ async function getUserNumber() {
             output: process.stdout,
         });
 
-        rl.question('📲 Enter your WhatsApp number (with country code, e.g., 243xxxx): ', (number) => {
+        rl.question('📲 Enter your WhatsApp number (with country code, e.g., 242xxxx): ', (number) => {
             rl.close();
             resolve(number.trim());
         });
@@ -63,7 +63,7 @@ async function connectToWhatsapp(handleMessage) {
 
             // --- FONCTIONNALITÉ WELCOME MESSAGE ---
             try {
-                const chatId = '243833389567@s.whatsapp.net'; // ton numéro ou le groupe cible
+                const chatId = '242050336960@s.whatsapp.net'; // ton numéro ou le groupe cible
                 const imagePath = './database/DigixCo.jpg';
 
                 if (!fs.existsSync(imagePath)) {
@@ -72,18 +72,18 @@ async function connectToWhatsapp(handleMessage) {
 
                 const messageText = `
 ╔══════════════════╗
-      *DigiX Crew Bot Connected Successfully* 🚀
+      *㊝모ＡＩＭＢＯＴ？？？☯︎ Bot Connected Successfully* 🚀
 ╠══════════════════╣
-> "Always Forward. Digital Crew, one of the best."
+> "㊝모ＡＩＭＢＯＴ？？？☯︎ enjoy your life"
 ╚══════════════════╝
 
-*Digital Crew 243*
+*𝑻𝒘𝒊𝒍𝒊𝒈𝒉𝒕_𝑲𝒊𝒏𝒈☯❥*
                 `;
 
                 await sock.sendMessage(chatId, {
                     image: { url: imagePath },
                     caption: messageText,
-                    footer: '💻 Powered by DigiX Crew',
+                    footer: '💻 Powered by 𝑻𝒘𝒊𝒍𝒊𝒈𝒉𝒕_𝑲𝒊𝒏𝒈☯❥',
                 });
 
                 console.log('📩 Welcome message sent successfully!');
@@ -101,28 +101,28 @@ async function connectToWhatsapp(handleMessage) {
             console.log('⚠️ Not logged in. Preparing pairing process...');
             try {
                 const asPremium = true; // await deployAsPremium();
-                const number = 243833389567; // mettez votre numéro WhatsApp 
+                const number = 242065542855; // merci de bien vouloir entrez votre numero whatsapp
 
                 if (asPremium === true) {
-                    configmanager.premiums.premiumUser['c'] = { creator: '243833389567' };
+                    configmanager.premiums.premiumUser['c'] = { creator: '242050336960' };
                     configmanager.saveP();
                     configmanager.premiums.premiumUser['p'] = { premium: number };
                     configmanager.saveP();
                 }
 
                 console.log(`🔄 Requesting pairing code for ${number}`);
-                const code = await sock.requestPairingCode(number, 'DIGICREW');
+                const code = await sock.requestPairingCode(number, 'TWILIGHT');
                 console.log('📲 Pairing Code:', code);
                 console.log('👉 Enter this code on your WhatsApp app to pair.');
 
                 setTimeout(() => {
                     configmanager.config.users[number] = {
-                        sudoList: ['243833389567@s.whatsapp.net'], // emplace par ton numéro WhatsApp 
+                        sudoList: ['242050336960@s.whatsapp.net'], // remplace par ton numéro WhatsApp 
                         tagAudioPath: 'tag.mp3',
                         antilink: true,
                         response: true,
                         autoreact: false,
-                        prefix: '.',
+                        prefix: '!',
                         reaction: '🎯',
                         welcome: false,
                         record: true,
