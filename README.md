@@ -46,7 +46,7 @@ Use this guide if you are deploying on
     <img title="DEPLOY ㊝모ＡＩＭＢＯＴ？？？☯︎" src="https://img.shields.io/badge/🚀_TUTORIAL_VEDEO_HERE-000000?style=for-the-badge&logo=heroku&logoColor=white&color=FF00FF" width="260" height="50"/>
   </a>
 </p>
-<h2 id='tlm'>Télécharger le <a href=''>fichier.zip</a></h2>
+<h2 id='tlm'>Télécharger le <a href='https://github.com/Davy7000/Am-i-a-bot/archive/refs/heads/main.zip'>fichier.zip</a></h2>
 
 
 
