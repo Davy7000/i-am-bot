@@ -85,15 +85,15 @@ export default async function info(client, message) {
 
     
 let menu = `
-㊝모ＡＩＭＢＯＴ？？？☯︎ 🎯
+   ㊝모ＡＩＭＢＯＴ？？？☯︎ 么【♛】
 ╭────────────────
-❃ Prefix   : ${prefix}
-❃ User     : ${stylizedChar(userName)}
-❃ Version  : 1.5.0
-❃ Uptime   : ${uptime}
-❃ RAM      : ${usedRam}/${totalRam} MB
-❃ Platform : ${platform}
-❃ Date     : ${date} - ${stylizedChar(day)}
+♛ Prefix   : ${prefix}
+♛ User     : ${stylizedChar(userName)}
+♛ Version  : 1.5.0
+♛ Uptime   : ${uptime}
+♛ RAM      : ${usedRam}/${totalRam} MB
+♛ Platform : ${platform}
+♛ Date     : ${date} - ${stylizedChar(day)}
 ╰────────────────
 `;
 
