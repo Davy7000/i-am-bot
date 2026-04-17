@@ -29,7 +29,7 @@ Use this guide if you are deploying on
 <a href="https://chat.whatsapp.com/DVS48331KpCIDgPoa6MzmU">
   <img src="https://img.shields.io/badge/Join_Group-00FF00?style=for-the-badge&logo=whatsapp" alt="WhatsApp Group"/>
 </a>
-<a href="">
+<a href="https://whatsapp.com/channel/0029VbCx0V247Xe6Y3QlCS0a">
   <img src="https://img.shields.io/badge/Join_Channel-FF69B4?style=for-the-badge&logo=whatsapp" alt="WhatsApp Channel"/>
 </a>
 
