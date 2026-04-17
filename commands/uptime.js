@@ -12,7 +12,7 @@ export async function uptime(client, message) {
 │ ⏱️ Uptime: ${days}d ${hours}h ${minutes}m
 │ 💾 RAM: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(1)}MB
 │
-│ "Beyond limits, we rise."
+│ "Enjoy your life witch"
 │     - ㊝모ＡＩＭＢＯＴ？？？☯︎ -
 └────────────────────┘`
     
