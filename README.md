@@ -51,27 +51,6 @@ Use this guide if you are deploying on
 [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=for-the-badge&logo=github)](https://github.com/Davy7000/Am-i-a-bot/archive/refs/heads/main.zip?ref_type=heads)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### 📜 License by
 
-㊝모ＡＩＭＢＯＴ？？？☯︎ * 𝑻𝒘𝒊𝒍𝒊𝒈𝒉𝒕_𝑲𝒊𝒏𝒈☯❥
+Cursor connect
